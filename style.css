@@ -1,0 +1,49 @@
+@font-face {
+    font-family: customFont;
+    src: url(./fonts/Norse-Bold.otf);
+  }
+
+html body{
+    font-size: 1.2rem;
+    padding: 0px;
+    margin: 0px;
+    font-family: customFont;
+}
+
+.container, .logo{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.logo {
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(127, 143, 166);
+    opacity: 0.5;
+    margin-top: 78vh;
+    margin-bottom: 2vh;
+    height: 15vh;
+    gap: 10px;
+}
+
+.hero {
+    background-image: url(./imgs/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40vw;
+}
+
+.hero img {
+    height: 10vh;
+    width: auto;
+}
+
+.hero h2 {
+    color: white;
+}
