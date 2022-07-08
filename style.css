@@ -39,11 +39,18 @@ html body{
     width: 40vw;
 }
 
-.hero img {
+.logo img {
     height: 10vh;
     width: auto;
 }
 
-.hero h2 {
+.logo h2 {
     color: white;
+}
+
+.hero p {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: rgb(245, 246, 250);
 }
